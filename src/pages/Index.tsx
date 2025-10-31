@@ -1,6 +1,35 @@
 import heroImage from "@/assets/hero-office-cleaning.jpg";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Users, Award, TrendingUp, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { AnimatedCounter } from "@/components/AnimatedCounter";
+
+const stats = [
+  {
+    icon: Users,
+    value: 500,
+    suffix: "+",
+    label: "Happy Clients",
+  },
+  {
+    icon: Award,
+    value: 15,
+    suffix: "+",
+    label: "Years Experience",
+  },
+  {
+    icon: TrendingUp,
+    value: 2000000,
+    suffix: "+",
+    label: "Sq.Ft. Cleaned",
+  },
+  {
+    icon: Star,
+    value: 4.9,
+    suffix: "/5",
+    label: "Average Rating",
+  },
+];
 
 const Index = () => {
   return (
@@ -68,6 +97,38 @@ const Index = () => {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-primary rounded-full flex items-start justify-center p-2">
             <div className="w-1 h-3 bg-primary rounded-full" />
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Stats Section */}
+      <section className="relative py-20 bg-gradient-to-br from-card via-card/95 to-accent/10">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {stats.map((stat, index) => {
+              const Icon = stat.icon;
+              return (
+                <Card 
+                  key={index}
+                  className="border-border/50 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                >
+                  <CardContent className="p-8 text-center">
+                    <div className="mb-4 flex justify-center">
+                      <div className="p-3 rounded-full bg-primary/10">
+                        <Icon className="h-8 w-8 text-primary" />
+                      </div>
+                    </div>
+                    <div className="text-4xl font-heading font-bold text-foreground mb-2">
+                      <AnimatedCounter 
+                        end={stat.value} 
+                        suffix={stat.suffix}
+                      />
+                    </div>
+                    <p className="text-muted-foreground font-medium">{stat.label}</p>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
