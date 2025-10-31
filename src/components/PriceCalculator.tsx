@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -202,7 +203,7 @@ export function PriceCalculator() {
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
                   asChild
                 >
-                  <a href="/contact">Book Now</a>
+                  <Link to="/contact">Book Now</Link>
                 </Button>
                 <Button 
                   size="lg"

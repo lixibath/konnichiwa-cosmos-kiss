@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
@@ -296,7 +297,7 @@ const Careers = () => {
                   className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                   asChild
                 >
-                  <a href="/contact">Apply Now</a>
+                  <Link to="/contact">Apply Now</Link>
                 </Button>
                 <Button 
                   size="lg"

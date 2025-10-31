@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Award, Shield, Users, Heart, Target } from "lucide-react";
@@ -255,7 +256,7 @@ const About = () => {
                   className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                   asChild
                 >
-                  <a href="/careers">View Open Positions</a>
+                  <Link to="/careers">View Open Positions</Link>
                 </Button>
                 <Button 
                   size="lg"
