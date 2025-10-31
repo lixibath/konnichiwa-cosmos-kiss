@@ -103,6 +103,12 @@ export function AppSidebar() {
                     (929) 462-4627
                   </a>
                 </p>
+                <div className="pt-2 border-t border-border/50">
+                  <p className="font-semibold text-foreground mb-1">Business Hours:</p>
+                  <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                  <p>Sat: 9:00 AM - 4:00 PM</p>
+                  <p>Sun: Closed</p>
+                </div>
               </div>
             )}
           </SidebarGroupContent>
