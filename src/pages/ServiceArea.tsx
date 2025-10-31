@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -267,7 +268,7 @@ const ServiceArea = () => {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                   asChild
                 >
-                  <a href="/contact">Contact Us About Your Location</a>
+                  <Link to="/contact">Contact Us About Your Location</Link>
                 </Button>
               </div>
             </CardContent>
@@ -290,7 +291,7 @@ const ServiceArea = () => {
               className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
               asChild
             >
-              <a href="/contact">Get Free Quote</a>
+              <Link to="/contact">Get Free Quote</Link>
             </Button>
             <Button 
               size="lg"

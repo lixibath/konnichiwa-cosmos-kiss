@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -212,7 +213,7 @@ const Services = () => {
                           className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                           asChild
                         >
-                          <a href="/contact">Request Quote</a>
+                          <Link to="/contact">Request Quote</Link>
                         </Button>
                       </div>
                     </div>
@@ -239,7 +240,7 @@ const Services = () => {
               className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
               asChild
             >
-              <a href="/contact">Get Free Quote</a>
+              <Link to="/contact">Get Free Quote</Link>
             </Button>
             <Button 
               size="lg"

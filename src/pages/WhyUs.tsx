@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, X, Shield, Users2, Leaf, Calendar, Award, Star } from "lucide-react";
@@ -363,7 +364,7 @@ const WhyUs = () => {
               className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
               asChild
             >
-              <a href="/contact">Get Free Quote</a>
+              <Link to="/contact">Get Free Quote</Link>
             </Button>
             <Button 
               size="lg"

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-office-cleaning.jpg";
 import serviceOffice from "@/assets/service-office-cleaning.jpg";
 import serviceResidential from "@/assets/service-residential-cleaning.jpg";
@@ -100,7 +101,7 @@ const Index = () => {
                 className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold shadow-lg hover:shadow-xl transition-all"
                 asChild
               >
-                <a href="/contact">Get Free Quote</a>
+                <Link to="/contact">Get Free Quote</Link>
               </Button>
               
               <Button 
@@ -222,7 +223,7 @@ const Index = () => {
               className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
               asChild
             >
-              <a href="/services">View All Services</a>
+              <Link to="/services">View All Services</Link>
             </Button>
           </div>
         </div>
