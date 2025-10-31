@@ -41,7 +41,13 @@ const Article7 = lazy(() => import("./pages/blog/Article7"));
 const Article8 = lazy(() => import("./pages/blog/Article8"));
 const Article9 = lazy(() => import("./pages/blog/Article9"));
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5,
+    },
+  },
+});
 
 const App = () => (
   <QueryClientProvider client={queryClient}>

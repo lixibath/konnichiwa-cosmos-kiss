@@ -264,7 +264,7 @@ const About = () => {
                   className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold"
                   asChild
                 >
-                  <a href="tel:9294624627">Call to Learn More</a>
+                  <Link to="/contact">Contact Us</Link>
                 </Button>
               </div>
               <p className="text-sm text-muted-foreground">
