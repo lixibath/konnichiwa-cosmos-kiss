@@ -28,8 +28,6 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
       <BrowserRouter>
         <SidebarProvider>
           <div className="flex min-h-screen w-full">
@@ -45,11 +43,11 @@ const App = () => (
                   </div>
                   <div className="flex items-center gap-4">
                     <a 
-                      href="tel:9294624627" 
+                      href="tel:+17185551234" 
                       className="hidden sm:flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm font-medium"
                     >
                       <span>📞</span>
-                      (929) 462-4627
+                      (718) 555-1234
                     </a>
                   </div>
                 </div>
@@ -77,6 +75,8 @@ const App = () => (
               </main>
             </div>
           </div>
+          <Toaster />
+          <Sonner />
         </SidebarProvider>
       </BrowserRouter>
     </TooltipProvider>
