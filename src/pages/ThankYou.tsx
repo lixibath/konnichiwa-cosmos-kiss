@@ -92,8 +92,8 @@ const ThankYou = () => {
         <div className="pt-8 border-t border-border/50">
           <p className="text-sm text-muted-foreground">
             Questions? Call us at{" "}
-            <a href="tel:9294624627" className="text-primary hover:underline font-semibold">
-              (929) 462-4627
+            <a href="tel:+17185551234" className="text-primary hover:underline font-semibold">
+              (718) 555-1234
             </a>
           </p>
         </div>
