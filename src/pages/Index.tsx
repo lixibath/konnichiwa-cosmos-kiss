@@ -9,6 +9,7 @@ import { Phone, Users, Award, TrendingUp, Star, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import { WhyChooseUs } from "@/components/WhyChooseUs";
 
 const stats = [
   {
@@ -226,6 +227,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Why Choose Us Section */}
+      <WhyChooseUs />
     </div>
   );
 };
