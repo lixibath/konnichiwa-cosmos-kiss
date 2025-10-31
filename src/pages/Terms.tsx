@@ -40,7 +40,7 @@ const Terms = () => {
       </section>
 
       {/* Navigation */}
-      <section className="py-6 border-b sticky top-16 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-40">
+      <section className="py-6 border-b bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <p className="text-sm text-muted-foreground mb-3">Quick Navigation:</p>
