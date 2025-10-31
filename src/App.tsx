@@ -48,11 +48,11 @@ const App = () => (
                   </div>
                   <div className="flex items-center gap-4">
                     <a 
-                      href="tel:+17185551234" 
+                      href="tel:+19294624627" 
                       className="hidden sm:flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm font-medium"
                     >
                       <span>📞</span>
-                      (718) 555-1234
+                      (929) 462-4627
                     </a>
                   </div>
                 </div>

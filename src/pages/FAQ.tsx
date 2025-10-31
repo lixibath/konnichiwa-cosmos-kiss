@@ -278,9 +278,9 @@ const FAQ = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+17185551234">
+                <a href="tel:+19294624627">
                   <Phone className="mr-2 h-5 w-5" />
-                  (718) 555-1234
+                  (929) 462-4627
                 </a>
               </Button>
             </div>

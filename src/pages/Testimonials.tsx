@@ -276,7 +276,7 @@ const Testimonials = () => {
                 <Link to="/contact">Get Your Free Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+17185551234">(718) 555-1234</a>
+                <a href="tel:+19294624627">(929) 462-4627</a>
               </Button>
             </div>
           </div>

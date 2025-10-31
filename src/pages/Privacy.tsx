@@ -230,11 +230,11 @@ const Privacy = () => {
                   <p>45-12 Queens Boulevard<br />Long Island City, NY 11101</p>
                   <p className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
-                    <a href="mailto:privacy@mjdavison.com" className="text-primary hover:underline">
-                      privacy@mjdavison.com
+                    <a href="mailto:contact@cleaningmj.com" className="text-primary hover:underline">
+                      contact@cleaningmj.com
                     </a>
                   </p>
-                  <p>Phone: <a href="tel:+17185551234" className="text-primary hover:underline">(718) 555-1234</a></p>
+                  <p>Phone: <a href="tel:+19294624627" className="text-primary hover:underline">(929) 462-4627</a></p>
                   <p className="text-sm">
                     For privacy-related inquiries, please include "Privacy Request" in the subject line.
                   </p>
