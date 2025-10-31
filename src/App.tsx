@@ -9,6 +9,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { Menu } from "lucide-react";
 import Loading from "@/components/Loading";
 import BackToTop from "@/components/BackToTop";
+import ScrollToTop from "@/components/ScrollToTop";
 import { PriceCalculator } from "@/components/PriceCalculator";
 
 // Lazy load pages for better performance
@@ -57,6 +58,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <SidebarProvider>
           <div className="flex min-h-screen w-full">
             <AppSidebar />
