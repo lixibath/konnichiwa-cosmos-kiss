@@ -90,10 +90,10 @@ export function PriceCalculator() {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button
-          className="fixed right-0 top-1/2 -translate-y-1/2 h-[150px] w-[40px] rounded-l-lg rounded-r-none bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg z-50 p-0"
+          className="fixed right-0 top-1/2 -translate-y-1/2 h-[150px] w-[45px] rounded-l-lg rounded-r-none bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg z-50 p-0"
           style={{ writingMode: "vertical-rl" }}
         >
-          <span className="text-xs font-bold tracking-wider whitespace-nowrap">
+          <span className="text-[10px] font-bold tracking-wider whitespace-nowrap">
             CALCULATE YOUR PRICE
           </span>
         </Button>
