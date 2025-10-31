@@ -39,6 +39,11 @@ const Article6 = lazy(() => import("./pages/blog/Article6"));
 const Article7 = lazy(() => import("./pages/blog/Article7"));
 const Article8 = lazy(() => import("./pages/blog/Article8"));
 const Article9 = lazy(() => import("./pages/blog/Article9"));
+const Article10 = lazy(() => import("./pages/blog/Article10"));
+const Article11 = lazy(() => import("./pages/blog/Article11"));
+const Article12 = lazy(() => import("./pages/blog/Article12"));
+const Article13 = lazy(() => import("./pages/blog/Article13"));
+const Article14 = lazy(() => import("./pages/blog/Article14"));
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -102,6 +107,11 @@ const App = () => (
                     <Route path="/blog/article-7" element={<Article7 />} />
                     <Route path="/blog/article-8" element={<Article8 />} />
                     <Route path="/blog/article-9" element={<Article9 />} />
+                    <Route path="/blog/article-10" element={<Article10 />} />
+                    <Route path="/blog/article-11" element={<Article11 />} />
+                    <Route path="/blog/article-12" element={<Article12 />} />
+                    <Route path="/blog/article-13" element={<Article13 />} />
+                    <Route path="/blog/article-14" element={<Article14 />} />
                     {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                     <Route path="*" element={<NotFound />} />
                   </Routes>
