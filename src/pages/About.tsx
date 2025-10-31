@@ -1,7 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Award, Shield, Users, Heart, Target } from "lucide-react";
-import ownerPhoto from "@/assets/owner-photo.jpg";
 import teamPhoto from "@/assets/team-photo.jpg";
 
 const coreValues = [
@@ -84,50 +83,29 @@ const About = () => {
         </div>
       </section>
 
-      {/* Founder Story */}
+      {/* Our Story */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            <div>
-              <img 
-                src={ownerPhoto} 
-                alt="Matthew James Davison, Owner"
-                className="w-full rounded-2xl shadow-2xl"
-              />
-              <p className="text-center mt-4 text-muted-foreground font-semibold">
-                Matthew James Davison, Founder & Owner
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-8 text-center">How We Started</h2>
+            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <p>
+                Back in 2010, Queens needed better cleaning services. Not fancy marketing or expensive websites – 
+                just reliable people who showed up on time and did quality work at fair prices.
               </p>
-            </div>
-            <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-heading font-bold">Our Story</h2>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
-                  I started this company in 2010 because I was frustrated. Frustrated watching my parents struggle 
-                  to find reliable cleaning help for their small restaurant in Astoria. Frustrated seeing friends 
-                  complain about cleaners who didn't show up or did sloppy work. Frustrated knowing I could do better.
-                </p>
-                <p>
-                  So I did. I bought a commercial vacuum, some quality supplies, and started knocking on doors. The 
-                  first few months were rough – I worked 12-hour days, learned what products actually worked (spoiler: 
-                  not the cheap stuff), and figured out how to run a business while actually doing the work.
-                </p>
-                <p>
-                  Fifteen years later, we've grown from just me to a team of dedicated professionals. But the mission 
-                  hasn't changed: show up on time, do exceptional work, treat people's spaces with respect, and charge 
-                  fair prices. It sounds simple, but you'd be surprised how many companies miss these basics.
-                </p>
-                <p>
-                  Queens is home. I grew up here, my family's here, and honestly, I can't imagine doing this anywhere 
-                  else. Every client we serve, whether it's a studio apartment in Long Island City or an office building 
-                  in Forest Hills, gets the same level of care I'd want for my own family.
-                </p>
-                <p className="font-semibold text-foreground">
-                  That's not a marketing line – that's a promise.
-                </p>
-                <p className="text-sm">
-                  — Matthew James Davison
-                </p>
-              </div>
+              <p>
+                That's how MJ Davison Cleaning started. No big funding, no business plan downloaded from the internet. 
+                Just a commitment to do cleaning the right way and treat people's homes and businesses with respect.
+              </p>
+              <p>
+                Fifteen years later, we've cleaned thousands of spaces across Queens. Our team has grown, our equipment 
+                is professional-grade, and we've added services. But the core mission hasn't changed: show up, do great 
+                work, charge fair prices, treat everyone right.
+              </p>
+              <p>
+                We're not trying to be the biggest cleaning company in New York. We're trying to be the best in Queens. 
+                That's specific enough to mean something and small enough to actually achieve.
+              </p>
             </div>
           </div>
         </div>
