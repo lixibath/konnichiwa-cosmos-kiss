@@ -8,6 +8,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
 import { Menu } from "lucide-react";
 import Loading from "@/components/Loading";
+import BackToTop from "@/components/BackToTop";
 
 // Lazy load pages for better performance
 const Index = lazy(() => import("./pages/Index"));
@@ -81,6 +82,7 @@ const App = () => (
               </main>
             </div>
           </div>
+          <BackToTop />
           <Toaster />
           <Sonner />
         </SidebarProvider>
