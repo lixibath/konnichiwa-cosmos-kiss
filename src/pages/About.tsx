@@ -255,7 +255,7 @@ const About = () => {
                   className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                   asChild
                 >
-                  <a href="/contact">Apply Now</a>
+                  <a href="/careers">View Open Positions</a>
                 </Button>
                 <Button 
                   size="lg"
