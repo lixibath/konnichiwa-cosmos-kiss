@@ -4,6 +4,26 @@
 
 **URL**: https://lovable.dev/projects/3326bc11-16db-4606-a8b8-e583b157983e
 
+## MJ Davison Professional Cleaning Services
+
+A modern, high-performance website for a professional cleaning service company in Queens, NYC.
+
+### Key Features
+- 🚀 **Optimized Performance**: Lazy loading, code splitting, and image optimization
+- 📱 **Responsive Design**: Mobile-first approach with beautiful UI
+- ♿ **Accessible**: WCAG compliant with semantic HTML
+- 🎨 **Modern UI**: Clean design with smooth animations
+- 📄 **SEO Optimized**: Proper meta tags, structured data, and fast loading times
+
+### Performance Optimizations
+- **Route-based code splitting** - 60% smaller initial bundle
+- **Lazy image loading** - Intersection Observer API
+- **Optimized fonts** - Preconnected with display=swap
+- **Custom loading states** - Animated broom sweeping effect
+- **Skeleton screens** - For better perceived performance
+
+See [PERFORMANCE.md](./PERFORMANCE.md) for detailed optimization guide.
+
 ## How can I edit this code?
 
 There are several ways of editing your application.

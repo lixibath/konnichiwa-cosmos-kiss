@@ -124,6 +124,20 @@ export default {
             transform: "scale(1)",
           },
         },
+        "sweep": {
+          "0%": {
+            transform: "translateX(-20px) rotate(-5deg)",
+            opacity: "0.8",
+          },
+          "50%": {
+            transform: "translateX(20px) rotate(5deg)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateX(-20px) rotate(-5deg)",
+            opacity: "0.8",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -132,6 +146,7 @@ export default {
         "slide-in-left": "slide-in-left 0.8s ease-out",
         "slide-in-right": "slide-in-right 0.8s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
+        "sweep": "sweep 2s ease-in-out infinite",
       },
     },
   },

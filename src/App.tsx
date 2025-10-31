@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,22 +7,25 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
 import { Menu } from "lucide-react";
-import Index from "./pages/Index";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Residential from "./pages/Residential";
-import Commercial from "./pages/Commercial";
-import Pricing from "./pages/Pricing";
-import ServiceArea from "./pages/ServiceArea";
-import WhyUs from "./pages/WhyUs";
-import FAQ from "./pages/FAQ";
-import Contact from "./pages/Contact";
-import Gallery from "./pages/Gallery";
-import Testimonials from "./pages/Testimonials";
-import Privacy from "./pages/Privacy";
-import Terms from "./pages/Terms";
-import ThankYou from "./pages/ThankYou";
-import NotFound from "./pages/NotFound";
+import Loading from "@/components/Loading";
+
+// Lazy load pages for better performance
+const Index = lazy(() => import("./pages/Index"));
+const About = lazy(() => import("./pages/About"));
+const Services = lazy(() => import("./pages/Services"));
+const Residential = lazy(() => import("./pages/Residential"));
+const Commercial = lazy(() => import("./pages/Commercial"));
+const Pricing = lazy(() => import("./pages/Pricing"));
+const ServiceArea = lazy(() => import("./pages/ServiceArea"));
+const WhyUs = lazy(() => import("./pages/WhyUs"));
+const FAQ = lazy(() => import("./pages/FAQ"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Gallery = lazy(() => import("./pages/Gallery"));
+const Testimonials = lazy(() => import("./pages/Testimonials"));
+const Privacy = lazy(() => import("./pages/Privacy"));
+const Terms = lazy(() => import("./pages/Terms"));
+const ThankYou = lazy(() => import("./pages/ThankYou"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
 
@@ -53,25 +57,27 @@ const App = () => (
                 </div>
               </header>
               <main className="flex-1">
-                <Routes>
-                  <Route path="/" element={<Index />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/services" element={<Services />} />
-                  <Route path="/residential" element={<Residential />} />
-                  <Route path="/commercial" element={<Commercial />} />
-                  <Route path="/pricing" element={<Pricing />} />
-                  <Route path="/service-area" element={<ServiceArea />} />
-                  <Route path="/why-us" element={<WhyUs />} />
-                  <Route path="/faq" element={<FAQ />} />
-                  <Route path="/contact" element={<Contact />} />
-                  <Route path="/gallery" element={<Gallery />} />
-                  <Route path="/testimonials" element={<Testimonials />} />
-                  <Route path="/privacy" element={<Privacy />} />
-                  <Route path="/terms" element={<Terms />} />
-                  <Route path="/thank-you" element={<ThankYou />} />
-                  {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                  <Route path="*" element={<NotFound />} />
-                </Routes>
+                <Suspense fallback={<Loading />}>
+                  <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/residential" element={<Residential />} />
+                    <Route path="/commercial" element={<Commercial />} />
+                    <Route path="/pricing" element={<Pricing />} />
+                    <Route path="/service-area" element={<ServiceArea />} />
+                    <Route path="/why-us" element={<WhyUs />} />
+                    <Route path="/faq" element={<FAQ />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/gallery" element={<Gallery />} />
+                    <Route path="/testimonials" element={<Testimonials />} />
+                    <Route path="/privacy" element={<Privacy />} />
+                    <Route path="/terms" element={<Terms />} />
+                    <Route path="/thank-you" element={<ThankYou />} />
+                    {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                    <Route path="*" element={<NotFound />} />
+                  </Routes>
+                </Suspense>
               </main>
             </div>
           </div>
