@@ -33,7 +33,7 @@ const Terms = () => {
               Please read these terms carefully before using our cleaning services.
             </p>
             <p className="text-sm text-muted-foreground">
-              <strong>Last Updated:</strong> October 31, 2025
+              <strong>Last Updated:</strong> October 20, 2025
             </p>
           </div>
         </div>

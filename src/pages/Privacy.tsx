@@ -29,7 +29,7 @@ const Privacy = () => {
               Your privacy is important to us. This policy explains how we collect, use, and protect your information.
             </p>
             <p className="text-sm text-muted-foreground">
-              <strong>Last Updated:</strong> October 31, 2025
+              <strong>Last Updated:</strong> October 20, 2025
             </p>
           </div>
         </div>
