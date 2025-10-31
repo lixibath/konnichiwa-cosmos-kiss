@@ -30,6 +30,17 @@ const ThankYou = lazy(() => import("./pages/ThankYou"));
 const Careers = lazy(() => import("./pages/Careers"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+// Blog Articles
+const Article1 = lazy(() => import("./pages/blog/Article1"));
+const Article2 = lazy(() => import("./pages/blog/Article2"));
+const Article3 = lazy(() => import("./pages/blog/Article3"));
+const Article4 = lazy(() => import("./pages/blog/Article4"));
+const Article5 = lazy(() => import("./pages/blog/Article5"));
+const Article6 = lazy(() => import("./pages/blog/Article6"));
+const Article7 = lazy(() => import("./pages/blog/Article7"));
+const Article8 = lazy(() => import("./pages/blog/Article8"));
+const Article9 = lazy(() => import("./pages/blog/Article9"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -78,6 +89,15 @@ const App = () => (
                     <Route path="/terms" element={<Terms />} />
                     <Route path="/thank-you" element={<ThankYou />} />
                     <Route path="/careers" element={<Careers />} />
+                    <Route path="/blog/article-1" element={<Article1 />} />
+                    <Route path="/blog/article-2" element={<Article2 />} />
+                    <Route path="/blog/article-3" element={<Article3 />} />
+                    <Route path="/blog/article-4" element={<Article4 />} />
+                    <Route path="/blog/article-5" element={<Article5 />} />
+                    <Route path="/blog/article-6" element={<Article6 />} />
+                    <Route path="/blog/article-7" element={<Article7 />} />
+                    <Route path="/blog/article-8" element={<Article8 />} />
+                    <Route path="/blog/article-9" element={<Article9 />} />
                     {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                     <Route path="*" element={<NotFound />} />
                   </Routes>

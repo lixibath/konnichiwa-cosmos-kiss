@@ -130,9 +130,12 @@ const Blog = () => {
                   <Button 
                     variant="ghost" 
                     className="text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-semibold group"
+                    asChild
                   >
-                    Read More
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <Link to={`/blog/article-${post.id}`}>
+                      Read More
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>
