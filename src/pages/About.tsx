@@ -238,42 +238,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Join Our Team CTA */}
-      <section className="py-16 bg-card/30">
-        <div className="container mx-auto px-4">
-          <Card className="max-w-3xl mx-auto">
-            <CardContent className="p-12 text-center space-y-6">
-              <Users className="h-16 w-16 text-primary mx-auto" />
-              <h2 className="text-3xl md:text-4xl font-heading font-bold">Join Our Team</h2>
-              <p className="text-lg text-muted-foreground">
-                We're always looking for dedicated, reliable people who take pride in their work. 
-                If you're interested in joining a company that values its employees and offers competitive pay, 
-                we'd love to hear from you.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="lg"
-                  className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-                  asChild
-                >
-                  <Link to="/careers">View Open Positions</Link>
-                </Button>
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold"
-                  asChild
-                >
-                  <Link to="/contact">Contact Us</Link>
-                </Button>
-              </div>
-              <p className="text-sm text-muted-foreground">
-                Equal opportunity employer. All positions include training, competitive wages, and growth opportunities.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
     </div>
   );
 };
