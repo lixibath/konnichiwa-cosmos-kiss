@@ -10,7 +10,7 @@ interface SEOHeadProps {
 
 const SEOHead = ({
   title = "MJ DAVISON CLEANING - Professional Cleaning Services in Queens, NYC",
-  description = "Professional residential and commercial cleaning services in Queens, NY. Licensed, insured, and trusted since 2010. Serving Long Island City, Astoria, Sunnyside, and surrounding areas.",
+  description = "Professional residential and commercial cleaning services in Queens, NY. Licensed, insured, and trusted by hundreds of homes and businesses. Serving Long Island City, Astoria, Sunnyside, and surrounding areas.",
   keywords = "cleaning services queens, professional cleaners NYC, residential cleaning, commercial cleaning, office cleaning, deep cleaning, move out cleaning, Queens NY",
   canonicalUrl,
   ogImage = "/logo.png",

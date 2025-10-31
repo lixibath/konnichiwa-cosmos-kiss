@@ -27,36 +27,36 @@ const coreValues = [
   },
 ];
 
-const timeline = [
+const workProcess = [
   {
-    year: "2010",
-    title: "The Beginning",
-    description: "Matthew started with just a mop, bucket, and determination to provide better cleaning services than what he saw in Queens. Working solo, he built a reputation one satisfied customer at a time.",
+    number: "1",
+    title: "Free Consultation",
+    description: "Contact us by phone or online form. We discuss your needs, space size, specific requirements, and answer all your questions. No pressure, no obligation – just honest conversation about what you need.",
   },
   {
-    year: "2013",
-    title: "First Team Member",
-    description: "Business grew enough to hire the first employee. Matthew realized he couldn't do it alone anymore, and more importantly, didn't want to. Building a team became the new focus.",
+    number: "2",
+    title: "Custom Cleaning Plan",
+    description: "Based on your needs, we create a detailed cleaning plan. You'll know exactly what we'll do, how long it takes, and what it costs. Everything is transparent before we start.",
   },
   {
-    year: "2016",
-    title: "Commercial Expansion",
-    description: "Started offering commercial janitorial services after several business owners asked if we could clean their offices the same way we cleaned their homes. The answer was yes.",
+    number: "3",
+    title: "Professional Service",
+    description: "Our trained, background-checked team arrives on time with all necessary equipment and eco-friendly products. They follow the agreed plan systematically, ensuring nothing is missed.",
   },
   {
-    year: "2019",
-    title: "Fleet & Equipment",
-    description: "Invested in professional-grade equipment and company vehicles. No more showing up in personal cars with household supplies. We became a real professional operation.",
+    number: "4",
+    title: "Quality Inspection",
+    description: "Before leaving, the team conducts a thorough walk-through to verify all tasks are completed to our standards. They double-check key areas and address any spots that need attention.",
   },
   {
-    year: "2022",
-    title: "Green Certification",
-    description: "Transitioned to eco-friendly cleaning products across all services. Clients with kids and pets deserved better than harsh chemicals, and our team deserved safer working conditions.",
+    number: "5",
+    title: "Client Feedback",
+    description: "After service, we reach out for your feedback. If anything isn't perfect, we'll return within 24 hours to make it right at no additional cost. Your satisfaction is guaranteed.",
   },
   {
-    year: "2025",
-    title: "Looking Forward",
-    description: "Plans to expand services into neighboring boroughs, hire 10 more team members, and continue being Queens' most trusted cleaning company. The best is yet to come.",
+    number: "6",
+    title: "Ongoing Partnership",
+    description: "Whether you need one-time service or regular cleaning, we're here for the long term. Same team, same standards, same commitment to excellence every single time.",
   },
 ];
 
@@ -91,7 +91,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-8 text-center">How We Started</h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Back in 2010, Queens needed better cleaning services. Not fancy marketing or expensive websites – 
+                Queens needed better cleaning services. Not fancy marketing or expensive websites – 
                 just reliable people who showed up on time and did quality work at fair prices.
               </p>
               <p>
@@ -99,7 +99,7 @@ const About = () => {
                 Just a commitment to do cleaning the right way and treat people's homes and businesses with respect.
               </p>
               <p>
-                Fifteen years later, we've cleaned thousands of spaces across Queens. Our team has grown, our equipment 
+                Since we started, we've cleaned thousands of spaces across Queens. Our team has grown, our equipment 
                 is professional-grade, and we've added services. But the core mission hasn't changed: show up, do great 
                 work, charge fair prices, treat everyone right.
               </p>
@@ -173,29 +173,29 @@ const About = () => {
         </div>
       </section>
 
-      {/* Timeline */}
+      {/* Work Process */}
       <section className="py-16 bg-gradient-to-br from-card via-card/95 to-accent/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Our Journey</h2>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">How We Work</h2>
             <p className="text-xl text-muted-foreground">
-              From one person with a mop to a trusted Queens institution
+              From first contact to ongoing service – here's what to expect
             </p>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
-            {timeline.map((event, index) => (
+            {workProcess.map((step, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-all">
                 <CardContent className="p-6 md:p-8">
                   <div className="flex flex-col md:flex-row gap-6">
                     <div className="md:w-24 flex-shrink-0">
-                      <div className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-lg font-bold text-xl">
-                        {event.year}
+                      <div className="inline-flex items-center justify-center bg-primary text-primary-foreground w-16 h-16 rounded-full font-bold text-2xl">
+                        {step.number}
                       </div>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-2xl font-heading font-bold mb-3">{event.title}</h3>
-                      <p className="text-muted-foreground leading-relaxed">{event.description}</p>
+                      <h3 className="text-2xl font-heading font-bold mb-3">{step.title}</h3>
+                      <p className="text-muted-foreground leading-relaxed">{step.description}</p>
                     </div>
                   </div>
                 </CardContent>

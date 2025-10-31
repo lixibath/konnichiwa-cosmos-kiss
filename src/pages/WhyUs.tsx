@@ -30,7 +30,7 @@ const detailedBenefits = [
   {
     icon: Award,
     title: "100% Satisfaction Guarantee",
-    description: "This isn't fine print buried in a contract – it's a real promise. If you're not happy with our work, we'll come back and fix it for free. No questions asked, no hassle, no attitude. And if we can't make it right? You don't pay. Simple as that. We've been doing this for 15 years and this policy has cost us money maybe a dozen times total. Why? Because we do good work and take pride in it. But mistakes happen – someone might miss a spot, overlook something, or just have an off day. We're human. When that happens, we own it and make it right. Most cleaning companies will argue, make excuses, or just ignore complaints. We won't. Your satisfaction matters because your referrals and repeat business are how we grow. Unhappy clients don't recommend us, and word of mouth is our best advertising. So yes, we guarantee our work. It's not marketing – it's accountability.",
+    description: "This isn't fine print buried in a contract – it's a real promise. If you're not happy with our work, we'll come back and fix it for free. No questions asked, no hassle, no attitude. And if we can't make it right? You don't pay. Simple as that. We've implemented this policy from day one, and it has cost us money maybe a handful of times total. Why? Because we do good work and take pride in it. But mistakes happen – someone might miss a spot, overlook something, or just have an off day. We're human. When that happens, we own it and make it right. Most cleaning companies will argue, make excuses, or just ignore complaints. We won't. Your satisfaction matters because your referrals and repeat business are how we grow. Unhappy clients don't recommend us, and word of mouth is our best advertising. So yes, we guarantee our work. It's not marketing – it's accountability.",
   },
   {
     icon: Star,
@@ -287,8 +287,7 @@ const WhyUs = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     In the rare event that something is damaged during service, we'll repair or replace it. We're 
                     fully insured with $2 million in coverage. All claims are handled promptly and professionally. 
-                    We've been in business 15 years and have filed maybe three claims total – we're careful with 
-                    your belongings.
+                    Since starting our business, we've filed very few claims – we're careful with your property.
                   </p>
                 </div>
 

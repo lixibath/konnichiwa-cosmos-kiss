@@ -4,7 +4,7 @@ Professional cleaning services website for Queens, NYC area.
 
 ## About
 
-MJ Davison Professional Cleaning Services specializes in residential and commercial cleaning solutions throughout Queens, NY. Licensed, insured, and trusted since 2010.
+MJ Davison Professional Cleaning Services specializes in residential and commercial cleaning solutions throughout Queens, NY. Licensed, insured, and trusted since 2025.
 
 **Contact Information:**
 - Phone: (929) 462-4627
@@ -147,7 +147,7 @@ No environment variables are required for basic functionality.
 
 ## License
 
-Copyright © 2010-2025 MJ Davison Cleaning LLC. All rights reserved.
+Copyright © 2025 MJ Davison Cleaning LLC. All rights reserved.
 
 ## Support
 

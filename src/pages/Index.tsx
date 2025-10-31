@@ -6,7 +6,7 @@ import serviceDeep from "@/assets/service-deep-cleaning.jpg";
 import serviceMoveInOut from "@/assets/service-move-inout.jpg";
 import servicePostConstruction from "@/assets/service-post-construction.jpg";
 import serviceFloorCare from "@/assets/service-floor-care.jpg";
-import { Phone, Users, Award, TrendingUp, Star, ArrowRight } from "lucide-react";
+import { Phone, Users, Shield, TrendingUp, Star, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
@@ -20,10 +20,10 @@ const stats = [
     label: "Happy Clients",
   },
   {
-    icon: Award,
-    value: 15,
-    suffix: "+",
-    label: "Years Experience",
+    icon: Shield,
+    value: 2,
+    suffix: "M",
+    label: "Insurance Coverage",
   },
   {
     icon: TrendingUp,
