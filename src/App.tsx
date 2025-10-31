@@ -21,7 +21,7 @@ const ServiceArea = lazy(() => import("./pages/ServiceArea"));
 const WhyUs = lazy(() => import("./pages/WhyUs"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const Contact = lazy(() => import("./pages/Contact"));
-const Gallery = lazy(() => import("./pages/Gallery"));
+const Blog = lazy(() => import("./pages/Blog"));
 const Testimonials = lazy(() => import("./pages/Testimonials"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
@@ -70,7 +70,7 @@ const App = () => (
                     <Route path="/why-us" element={<WhyUs />} />
                     <Route path="/faq" element={<FAQ />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/gallery" element={<Gallery />} />
+                    <Route path="/blog" element={<Blog />} />
                     <Route path="/testimonials" element={<Testimonials />} />
                     <Route path="/privacy" element={<Privacy />} />
                     <Route path="/terms" element={<Terms />} />

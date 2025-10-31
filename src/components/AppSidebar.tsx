@@ -26,7 +26,7 @@ const menuItems = [
   { title: "Why Us", url: "/why-us", icon: HelpCircle },
   { title: "FAQ", url: "/faq", icon: HelpCircle },
   { title: "Contact", url: "/contact", icon: Mail },
-  { title: "Gallery", url: "/gallery", icon: Image },
+  { title: "Blog", url: "/blog", icon: FileText },
   { title: "Testimonials", url: "/testimonials", icon: MessageSquare },
   { title: "Privacy Policy", url: "/privacy", icon: Shield },
   { title: "Terms of Service", url: "/terms", icon: FileText },
