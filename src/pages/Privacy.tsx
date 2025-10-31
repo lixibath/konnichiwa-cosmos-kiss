@@ -65,7 +65,7 @@ const Privacy = () => {
               <h2 className="text-2xl font-heading font-bold mb-4">1. Introduction</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  MJ Davison Professional Cleaning Services ("we," "us," "our," or "Company") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our cleaning services.
+                  MJ DAVISON CLEANING LLC ("we," "us," "our," or "Company") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our cleaning services.
                 </p>
                 <p>
                   By using our website or services, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our services.
@@ -226,8 +226,8 @@ const Privacy = () => {
                   If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
                 </p>
                 <div className="bg-background p-6 rounded-lg space-y-3">
-                  <p><strong className="text-foreground">MJ Davison Professional Cleaning Services</strong></p>
-                  <p>45-12 Queens Boulevard<br />Long Island City, NY 11101</p>
+                  <p><strong className="text-foreground">MJ DAVISON CLEANING LLC</strong></p>
+                  <p>1102 49th Ave Apt 8N<br />Long Island City, NY 11101</p>
                   <p className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
                     <a href="mailto:contact@cleaningmj.com" className="text-primary hover:underline">

@@ -268,7 +268,7 @@ const Testimonials = () => {
               Become Our Next Happy Customer
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Join hundreds of satisfied clients who trust MJ Davison Professional Cleaning Services. 
+              Join hundreds of satisfied clients who trust MJ DAVISON CLEANING LLC. 
               Experience the difference that quality, reliability, and attention to detail can make.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -108,7 +108,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      45-12 Queens Boulevard<br />
+                      1102 49th Ave Apt 8N<br />
                       Long Island City, NY 11101
                     </p>
                   </div>

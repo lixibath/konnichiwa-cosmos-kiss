@@ -69,7 +69,7 @@ const Terms = () => {
               <h2 className="text-2xl font-heading font-bold mb-4">1. Acceptance of Terms</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  These Terms of Service ("Terms") constitute a legally binding agreement between you ("Client," "you," or "your") and MJ Davison Professional Cleaning Services ("Company," "we," "us," or "our"). By scheduling, booking, or using our cleaning services, you acknowledge that you have read, understood, and agree to be bound by these Terms.
+                  These Terms of Service ("Terms") constitute a legally binding agreement between you ("Client," "you," or "your") and MJ DAVISON CLEANING LLC ("Company," "we," "us," or "our"). By scheduling, booking, or using our cleaning services, you acknowledge that you have read, understood, and agree to be bound by these Terms.
                 </p>
                 <p>
                   If you do not agree to these Terms, please do not use our services. We reserve the right to refuse service to anyone for any reason at any time.
@@ -82,7 +82,7 @@ const Terms = () => {
               <h2 className="text-2xl font-heading font-bold mb-4">2. Services Provided</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  MJ Davison Professional Cleaning Services provides residential and commercial cleaning services in Queens, NY, and surrounding areas. Our services include but are not limited to:
+                  MJ DAVISON CLEANING LLC provides residential and commercial cleaning services in Queens, NY, and surrounding areas. Our services include but are not limited to:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Regular residential cleaning (weekly, bi-weekly, monthly)</li>
@@ -211,7 +211,7 @@ const Terms = () => {
               <h2 className="text-2xl font-heading font-bold mb-4">7. Limitation of Liability</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  To the fullest extent permitted by law, MJ Davison Professional Cleaning Services shall not be liable for:
+                  To the fullest extent permitted by law, MJ DAVISON CLEANING LLC shall not be liable for:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Damage to items not properly secured or removed prior to cleaning</li>
@@ -233,7 +233,7 @@ const Terms = () => {
               <h2 className="text-2xl font-heading font-bold mb-4">8. Insurance and Damage Claims</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  MJ Davison Professional Cleaning Services carries comprehensive general liability insurance and workers' compensation coverage.
+                  MJ DAVISON CLEANING LLC carries comprehensive general liability insurance and workers' compensation coverage.
                 </p>
                 
                 <h3 className="text-lg font-semibold text-foreground mt-4">Reporting Damage</h3>
@@ -354,8 +354,8 @@ const Terms = () => {
                   If you have questions about these Terms of Service, please contact us:
                 </p>
                 <div className="bg-background p-6 rounded-lg space-y-3">
-                  <p><strong className="text-foreground">MJ Davison Professional Cleaning Services</strong></p>
-                  <p>45-12 Queens Boulevard<br />Long Island City, NY 11101</p>
+                  <p><strong className="text-foreground">MJ DAVISON CLEANING LLC</strong></p>
+                  <p>1102 49th Ave Apt 8N<br />Long Island City, NY 11101</p>
                   <p className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
                     <a href="mailto:contact@cleaningmj.com" className="text-primary hover:underline">

@@ -27,7 +27,7 @@ const faqData: FAQItem[] = [
   {
     category: "General",
     question: "Are you licensed and insured?",
-    answer: "Yes, MJ Davison Professional Cleaning Services is fully licensed, bonded, and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our clients and our team members. We can provide proof of insurance upon request."
+    answer: "Yes, MJ DAVISON CLEANING LLC is fully licensed, bonded, and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our clients and our team members. We can provide proof of insurance upon request."
   },
   {
     category: "General",
