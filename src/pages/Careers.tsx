@@ -17,7 +17,7 @@ const benefits = [
   {
     icon: DollarSign,
     title: "Competitive Pay",
-    description: "$18-$25/hour depending on experience. We pay above market rate because quality people deserve quality wages.",
+    description: "$24-$34/hour depending on experience. We pay above market rate because quality people deserve quality wages.",
   },
   {
     icon: Clock,
@@ -49,7 +49,7 @@ const benefits = [
 const positions = [
   {
     title: "Residential Cleaning Specialist",
-    pay: "$18-22/hour",
+    pay: "$24-30/hour",
     description: "Clean homes across Queens. Detail-oriented work that makes a real difference in people's lives.",
     requirements: [
       "Reliable transportation or able to meet at location",
@@ -61,7 +61,7 @@ const positions = [
   },
   {
     title: "Commercial Cleaner",
-    pay: "$20-24/hour",
+    pay: "$27-32/hour",
     description: "Clean offices, retail spaces, and commercial buildings. Evening shifts available.",
     requirements: [
       "Previous cleaning experience preferred but not required",
@@ -73,7 +73,7 @@ const positions = [
   },
   {
     title: "Team Leader",
-    pay: "$24-28/hour",
+    pay: "$32-38/hour",
     description: "Lead a crew of 3-5 cleaners, ensure quality, train new hires. Management experience a plus.",
     requirements: [
       "2+ years professional cleaning experience",
@@ -123,7 +123,7 @@ const additionalBenefits = [
   "Paid training period (you earn while you learn)",
   "Transportation assistance for team members without cars",
   "Performance bonuses for consistent quality work",
-  "Referral bonuses ($100 for each person you refer who gets hired)",
+  "Referral bonuses ($135 for each person you refer who gets hired)",
   "Flexible scheduling around school or other commitments",
   "Opportunity to pick up extra shifts when available",
   "Annual pay reviews and raises for good performers",

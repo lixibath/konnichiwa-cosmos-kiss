@@ -62,31 +62,31 @@ const residentialPackages = [
 ];
 
 const residentialPricing = [
-  { size: "Studio", sqft: "Up to 600 sq.ft", basic: "$120", standard: "$150", premium: "$190" },
-  { size: "1 Bedroom", sqft: "600-800 sq.ft", basic: "$140", standard: "$175", premium: "$220" },
-  { size: "2 Bedrooms", sqft: "800-1,200 sq.ft", basic: "$170", standard: "$210", premium: "$270" },
-  { size: "3 Bedrooms", sqft: "1,200-1,800 sq.ft", basic: "$210", standard: "$260", premium: "$330" },
-  { size: "4+ Bedrooms", sqft: "1,800+ sq.ft", basic: "$280+", standard: "$350+", premium: "$450+" },
+  { size: "Studio", sqft: "Up to 600 sq.ft", basic: "$165", standard: "$205", premium: "$260" },
+  { size: "1 Bedroom", sqft: "600-800 sq.ft", basic: "$190", standard: "$240", premium: "$300" },
+  { size: "2 Bedrooms", sqft: "800-1,200 sq.ft", basic: "$230", standard: "$285", premium: "$365" },
+  { size: "3 Bedrooms", sqft: "1,200-1,800 sq.ft", basic: "$285", standard: "$350", premium: "$450" },
+  { size: "4+ Bedrooms", sqft: "1,800+ sq.ft", basic: "$380+", standard: "$475+", premium: "$610+" },
 ];
 
 const commercialPricing = [
-  { range: "Under 2,000 sq.ft", basic: "$150-200", standard: "$200-280", premium: "$280-380" },
-  { range: "2,000-5,000 sq.ft", basic: "$200-350", standard: "$280-450", premium: "$380-600" },
-  { range: "5,000-10,000 sq.ft", basic: "$350-650", standard: "$450-850", premium: "$600-1,100" },
+  { range: "Under 2,000 sq.ft", basic: "$205-270", standard: "$270-380", premium: "$380-515" },
+  { range: "2,000-5,000 sq.ft", basic: "$270-475", standard: "$380-610", premium: "$515-810" },
+  { range: "5,000-10,000 sq.ft", basic: "$475-880", standard: "$610-1,150", premium: "$810-1,490" },
   { range: "10,000+ sq.ft", basic: "Custom", standard: "Custom", premium: "Custom" },
 ];
 
 const additionalServices = [
-  { service: "Carpet Steam Cleaning", price: "$50-120", unit: "per room" },
-  { service: "Window Cleaning (exterior)", price: "$5-8", unit: "per window" },
-  { service: "Deep Oven Cleaning", price: "$45-60", unit: "per oven" },
-  { service: "Refrigerator Deep Clean", price: "$40-55", unit: "per fridge" },
-  { service: "Move In/Out Cleaning", price: "+$80-150", unit: "additional" },
-  { service: "Post-Construction Cleanup", price: "$300-800", unit: "project-based" },
-  { service: "Floor Stripping & Waxing", price: "$0.50-1.20", unit: "per sq.ft" },
-  { service: "Pressure Washing", price: "$150-300", unit: "per session" },
-  { service: "Upholstery Cleaning", price: "$80-150", unit: "per piece" },
-  { service: "Laundry Service", price: "$25-40", unit: "per load" },
+  { service: "Carpet Steam Cleaning", price: "$70-165", unit: "per room" },
+  { service: "Window Cleaning (exterior)", price: "$7-11", unit: "per window" },
+  { service: "Deep Oven Cleaning", price: "$61-81", unit: "per oven" },
+  { service: "Refrigerator Deep Clean", price: "$54-75", unit: "per fridge" },
+  { service: "Move In/Out Cleaning", price: "+$110-205", unit: "additional" },
+  { service: "Post-Construction Cleanup", price: "$405-1,080", unit: "project-based" },
+  { service: "Floor Stripping & Waxing", price: "$0.70-1.60", unit: "per sq.ft" },
+  { service: "Pressure Washing", price: "$205-405", unit: "per session" },
+  { service: "Upholstery Cleaning", price: "$110-205", unit: "per piece" },
+  { service: "Laundry Service", price: "$34-54", unit: "per load" },
 ];
 
 const pricingFAQ = [

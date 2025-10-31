@@ -18,7 +18,7 @@ const services = [
   {
     id: "office-cleaning",
     title: "Office Cleaning",
-    price: "from $150",
+    price: "from $205",
     image: serviceOffice,
     description: "Running a business is demanding enough without worrying about keeping your workspace clean. That's where we come in. Our office cleaning service takes care of everything from dusting desks and emptying trash bins to sanitizing restrooms and keeping your floors spotless. We know every business is different, so we tailor our approach to fit your needs. Whether you need daily touch-ups or a weekly deep clean, we've got you covered. Our team works quietly and efficiently, usually after hours so we never interrupt your workflow. We use professional-grade equipment and eco-friendly products that are tough on dirt but safe for your employees. A clean office isn't just about appearances – it's about creating a healthier environment where people actually want to work. Plus, first impressions matter when clients walk through your door.",
     duration: "2-4 hours",
@@ -36,7 +36,7 @@ const services = [
   {
     id: "residential-cleaning",
     title: "Residential Cleaning",
-    price: "from $120",
+    price: "from $165",
     image: serviceResidential,
     description: "Your home should be your sanctuary, not another source of stress. We get it – between work, family, and everything else life throws at you, finding time to properly clean can feel impossible. Our residential cleaning service gives you that time back. We handle everything from top to bottom: bathrooms get scrubbed until they sparkle, kitchens are left spotless, bedrooms are refreshed, and living areas become actually livable again. We're not just pushing dirt around – we're doing a thorough job that makes a real difference. Each cleaner on our team is background-checked and trained to treat your home with respect. We bring our own supplies (eco-friendly, because we care about your family and pets), and we follow a detailed checklist to make sure nothing gets missed. Whether you want us weekly, bi-weekly, or just for a one-time refresh, we'll work around your schedule. Some clients even leave us a key so we can clean while they're at work. Whatever works best for you.",
     duration: "2-5 hours",
@@ -54,7 +54,7 @@ const services = [
   {
     id: "deep-cleaning",
     title: "Deep Cleaning",
-    price: "from $250",
+    price: "from $340",
     image: serviceDeep,
     description: "Sometimes a regular cleaning just doesn't cut it. Maybe you've been busy for months, or you're dealing with the aftermath of a party, or you just want to hit the reset button on your entire space. That's when you need a deep clean. This isn't your typical surface-level tidy-up. We're talking about getting into all those places you usually ignore – behind appliances, inside cabinets, under furniture, you name it. We scrub grout lines, degrease ovens, clean out refrigerators, dust ceiling fans and light fixtures, and tackle those mysterious sticky spots that somehow accumulate over time. It takes longer than a standard cleaning (usually 4-6 hours depending on the space), but the results are worth it. Everything gets the attention it deserves. Most people schedule a deep clean seasonally or before hosting a big event, but honestly, anytime is a good time to give your space this kind of love. You'll notice the difference immediately – it's like getting a brand new home without actually moving.",
     duration: "4-6 hours",
@@ -74,7 +74,7 @@ const services = [
   {
     id: "move-inout",
     title: "Move In/Out Cleaning",
-    price: "from $200",
+    price: "from $270",
     image: serviceMoveInOut,
     description: "Moving is stressful. Between packing, coordinating movers, updating addresses, and a million other tasks, cleaning is probably the last thing you want to think about. But whether you're trying to get your security deposit back or you want your new place to be fresh before you unpack, a thorough cleaning matters. Our move-in/move-out service handles the entire space from top to bottom. We clean places you didn't even know existed – inside cabinets, behind appliances, inside closets, you get the idea. For move-outs, we make sure everything is spotless so you can hand over those keys with confidence. For move-ins, we get rid of any traces of previous occupants so you're starting fresh. No one wants to put their food in a grimy refrigerator or their clothes in dusty closets. We take care of all that. The place will be so clean you could literally eat off the floor (though we don't recommend it). This service usually takes 3-5 hours depending on the size, but it's worth every minute.",
     duration: "3-5 hours",
@@ -94,7 +94,7 @@ const services = [
   {
     id: "post-construction",
     title: "Post-Construction Cleaning",
-    price: "from $300",
+    price: "from $405",
     image: servicePostConstruction,
     description: "Construction dust is unlike any other kind of mess. It gets everywhere – and we mean everywhere. After a renovation or new construction, you're left with dust coating every surface, paint splatters, adhesive residue, sawdust in corners, and sometimes debris you didn't even know was there. Regular cleaning tools just don't cut it for this job. You need industrial-grade equipment and people who know what they're doing. That's us. We've cleaned up after countless construction projects, from small bathroom remodels to full home renovations. We know how to handle drywall dust (it's tricky), remove stickers and protective films from windows and appliances, and get rid of all those little bits of debris hiding in corners. We'll make multiple passes to ensure everything is actually clean, not just looking clean. The first pass gets the big stuff, then we go back for detail work. By the time we're done, your newly renovated space will be ready to enjoy without any of the mess. Just be warned – this kind of cleaning takes time, usually 5-8 hours depending on the scope of work.",
     duration: "5-8 hours",
@@ -114,7 +114,7 @@ const services = [
   {
     id: "floor-care",
     title: "Floor Care & Maintenance",
-    price: "from $180",
+    price: "from $245",
     image: serviceFloorCare,
     description: "Floors take a beating. They're walked on, spilled on, dragged across – and over time, they start to show it. But with the right care, your floors can look great for years. We offer specialized floor care for all types: hardwood, tile, vinyl, laminate, you name it. This isn't just mopping – we're talking about proper maintenance that extends the life of your flooring. For hardwood, we clean and can arrange for polishing or refinishing if needed. For tile and grout, we deep clean to remove built-up grime and can reseal grout lines. For carpets, we have professional-grade equipment for deep cleaning that pulls out dirt your vacuum can't touch. Different floors need different approaches, and we know how to handle each one properly. Using the wrong products or techniques can actually damage your floors, so it's worth having professionals who know what they're doing. Regular floor maintenance not only keeps things looking good, but it also protects your investment. Floors are expensive to replace, so taking care of them makes sense. We can set up a regular maintenance schedule or just come out for a one-time deep clean – whatever you need.",
     duration: "2-4 hours",

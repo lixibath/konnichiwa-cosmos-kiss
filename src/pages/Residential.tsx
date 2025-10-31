@@ -7,7 +7,7 @@ import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 const packages = [
   {
     name: "Weekly Service",
-    price: "$120-180",
+    price: "$165-245",
     frequency: "Every week",
     ideal: "Busy families, high-traffic homes",
     benefits: [
@@ -19,7 +19,7 @@ const packages = [
   },
   {
     name: "Bi-Weekly Service",
-    price: "$140-210",
+    price: "$190-285",
     frequency: "Every two weeks",
     ideal: "Working professionals, couples",
     benefits: [
@@ -31,7 +31,7 @@ const packages = [
   },
   {
     name: "Monthly Service",
-    price: "$180-260",
+    price: "$245-350",
     frequency: "Once per month",
     ideal: "Tidy homeowners, seasonal refresh",
     benefits: [
@@ -44,10 +44,10 @@ const packages = [
 ];
 
 const pricingBySize = [
-  { size: "Studio / 1 Bedroom", sqft: "Up to 800 sq.ft", price: "$120-160" },
-  { size: "2 Bedrooms", sqft: "800-1,200 sq.ft", price: "$150-190" },
-  { size: "3 Bedrooms", sqft: "1,200-1,800 sq.ft", price: "$180-240" },
-  { size: "4+ Bedrooms", sqft: "1,800+ sq.ft", price: "$240-350" },
+  { size: "Studio / 1 Bedroom", sqft: "Up to 800 sq.ft", price: "$165-220" },
+  { size: "2 Bedrooms", sqft: "800-1,200 sq.ft", price: "$205-260" },
+  { size: "3 Bedrooms", sqft: "1,200-1,800 sq.ft", price: "$245-325" },
+  { size: "4+ Bedrooms", sqft: "1,800+ sq.ft", price: "$325-475" },
 ];
 
 const services = [

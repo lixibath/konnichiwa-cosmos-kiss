@@ -22,20 +22,20 @@ import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
 
 const serviceTypes = [
-  { value: "residential", label: "Residential Cleaning", basePrice: 120 },
-  { value: "deep", label: "Deep Cleaning", basePrice: 180 },
-  { value: "office", label: "Office Cleaning", basePrice: 150 },
-  { value: "move", label: "Move In/Out Cleaning", basePrice: 200 },
-  { value: "construction", label: "Post-Construction Cleaning", basePrice: 250 },
-  { value: "floor", label: "Floor Care & Polishing", basePrice: 100 },
+  { value: "residential", label: "Residential Cleaning", basePrice: 165 },
+  { value: "deep", label: "Deep Cleaning", basePrice: 245 },
+  { value: "office", label: "Office Cleaning", basePrice: 205 },
+  { value: "move", label: "Move In/Out Cleaning", basePrice: 270 },
+  { value: "construction", label: "Post-Construction Cleaning", basePrice: 340 },
+  { value: "floor", label: "Floor Care & Polishing", basePrice: 135 },
 ];
 
 const serviceAreas = [
   { value: "astoria", label: "Astoria/LIC", surcharge: 0 },
-  { value: "flushing", label: "Flushing/Corona", surcharge: 15 },
-  { value: "forest", label: "Forest Hills/Kew Gardens", surcharge: 20 },
-  { value: "jamaica", label: "Jamaica/Hollis", surcharge: 25 },
-  { value: "rockaway", label: "Rockaway/Far Rockaway", surcharge: 30 },
+  { value: "flushing", label: "Flushing/Corona", surcharge: 20 },
+  { value: "forest", label: "Forest Hills/Kew Gardens", surcharge: 27 },
+  { value: "jamaica", label: "Jamaica/Hollis", surcharge: 34 },
+  { value: "rockaway", label: "Rockaway/Far Rockaway", surcharge: 41 },
 ];
 
 export function PriceCalculator() {
@@ -58,14 +58,14 @@ export function PriceCalculator() {
 
     let price = service.basePrice;
 
-    // Add $35 for each room after the 3rd
+    // Add $47 for each room after the 3rd
     if (rooms[0] > 3) {
-      price += (rooms[0] - 3) * 35;
+      price += (rooms[0] - 3) * 47;
     }
 
-    // Add $0.07 for each sq ft after 1000
+    // Add $0.09 for each sq ft after 1000
     if (sqft > 1000) {
-      price += (sqft - 1000) * 0.07;
+      price += (sqft - 1000) * 0.09;
     }
 
     // Add service area surcharge

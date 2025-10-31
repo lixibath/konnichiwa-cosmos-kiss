@@ -234,7 +234,7 @@ const Commercial = () => {
               Transparent Pricing
             </h2>
             <p className="text-lg text-muted-foreground">
-              Commercial cleaning rates start at <span className="text-primary font-bold text-2xl">$150-300</span> per visit, depending on square footage, frequency, and specific requirements. Most offices pay between $200-400 per cleaning for weekly service.
+              Commercial cleaning rates start at <span className="text-primary font-bold text-2xl">$205-405</span> per visit, depending on square footage, frequency, and specific requirements. Most offices pay between $270-540 per cleaning for weekly service.
             </p>
           </div>
 
