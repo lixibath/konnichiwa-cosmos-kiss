@@ -9,6 +9,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { Menu } from "lucide-react";
 import Loading from "@/components/Loading";
 import BackToTop from "@/components/BackToTop";
+import { PriceCalculator } from "@/components/PriceCalculator";
 
 // Lazy load pages for better performance
 const Index = lazy(() => import("./pages/Index"));
@@ -83,6 +84,7 @@ const App = () => (
             </div>
           </div>
           <BackToTop />
+          <PriceCalculator />
           <Toaster />
           <Sonner />
         </SidebarProvider>
