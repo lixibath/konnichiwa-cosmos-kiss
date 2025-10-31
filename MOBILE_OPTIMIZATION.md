@@ -27,12 +27,13 @@ The sidebar automatically collapses on mobile:
 </header>
 ```
 
-## Testing Instructions
+## Testing on Real Devices
 
-### In Lovable Preview
-1. Click device icons above preview (📱 💻 🖥️)
-2. Test: Mobile (375px) → Tablet (768px) → Desktop (1024px+)
-3. Verify all pages work on each size
+### Quick Mobile Testing
+1. Build the project: `npm run build`
+2. Preview: `npm run preview`
+3. In development preview, click "Open in New Tab"
+4. Access from mobile device using the URL
 
 ### Touch Target Sizes
 All interactive elements meet WCAG standards:

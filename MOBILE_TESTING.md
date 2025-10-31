@@ -1,9 +1,9 @@
 # Mobile Testing Guide 📱
 
-## Quick Testing in Lovable
+## Quick Testing in Preview
 
 1. **Access Device Toggle**
-   - Look for icons above preview: 📱 💻 🖥️
+   - Look for device icons in preview toolbar
    - Click to switch between devices
    
 2. **Test Sequence**
@@ -98,23 +98,19 @@ xl: 1280px  // Desktops
 5. **Overlapping elements** → Proper spacing
 6. **Slow loading** → Lazy loading & code splitting
 
-## Testing on Real Devices
+## Real Device Testing (Recommended)
 
-### iOS (iPhone/iPad)
-```bash
-# After exporting to GitHub
-npm install
-npm run dev
-# Access via local network IP
-```
+### Testing on Mobile Devices
 
-### Android
-```bash
-# After exporting to GitHub  
-npm install
-npm run dev
-# Access via local network IP
-```
+1. **In Development Preview:**
+   - Click the "Preview" button
+   - Click "Open in New Tab" icon
+   - This opens your app in a new browser tab
+   
+2. **Access on Mobile Device:**
+   - Copy the URL from the preview tab
+   - Open on your mobile device's browser
+   - Bookmark for easy access during testing
 
 ### Browser DevTools
 ```
@@ -183,4 +179,4 @@ If you find mobile issues:
 
 ---
 
-**Your app is fully mobile-optimized!** Test using device toggle in Lovable preview. 🎉
+**Your app is fully mobile-optimized!** Test using device toggle in preview. 🎉

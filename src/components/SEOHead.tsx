@@ -13,7 +13,7 @@ const SEOHead = ({
   description = "Professional residential and commercial cleaning services in Queens, NY. Licensed, insured, and trusted since 2010. Serving Long Island City, Astoria, Sunnyside, and surrounding areas.",
   keywords = "cleaning services queens, professional cleaners NYC, residential cleaning, commercial cleaning, office cleaning, deep cleaning, move out cleaning, Queens NY",
   canonicalUrl,
-  ogImage = "https://lovable.dev/opengraph-image-p98pqg.png",
+  ogImage = "/logo.png",
 }: SEOHeadProps) => {
   useEffect(() => {
     // Update title
