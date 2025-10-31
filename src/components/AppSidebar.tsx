@@ -51,7 +51,7 @@ export function AppSidebar() {
 
       <SidebarContent className="py-4">
         <SidebarGroup>
-          <SidebarGroupLabel className="text-xs uppercase tracking-wider text-foreground/70 px-4 mb-2">
+          <SidebarGroupLabel className="text-xs uppercase tracking-wider text-gray-600 dark:text-gray-400 px-4 mb-2">
             Navigation
           </SidebarGroupLabel>
           <SidebarGroupContent>
@@ -68,12 +68,12 @@ export function AppSidebar() {
                       className={({ isActive }) => 
                         `flex items-center gap-3 px-4 py-2 transition-colors ${
                           isActive 
-                            ? "bg-accent text-accent-foreground font-medium" 
-                            : "text-foreground hover:bg-accent/50 hover:text-accent-foreground"
+                            ? "bg-primary/10 text-primary font-medium" 
+                            : "text-gray-900 dark:text-gray-100 hover:bg-primary/5"
                         }`
                       }
                     >
-                      <item.icon className="h-4 w-4" />
+                      <item.icon className="h-4 w-4 text-gray-900 dark:text-gray-100" />
                       {open && <span className="text-sm">{item.title}</span>}
                     </NavLink>
                   </SidebarMenuButton>
@@ -84,7 +84,7 @@ export function AppSidebar() {
         </SidebarGroup>
 
         <SidebarGroup className="mt-6">
-          <SidebarGroupLabel className="text-xs uppercase tracking-wider text-foreground/70 px-4 mb-2">
+          <SidebarGroupLabel className="text-xs uppercase tracking-wider text-gray-600 dark:text-gray-400 px-4 mb-2">
             Contact
           </SidebarGroupLabel>
           <SidebarGroupContent className="px-4">
