@@ -1,5 +1,11 @@
 import heroImage from "@/assets/hero-office-cleaning.jpg";
-import { Phone, Users, Award, TrendingUp, Star } from "lucide-react";
+import serviceOffice from "@/assets/service-office-cleaning.jpg";
+import serviceResidential from "@/assets/service-residential-cleaning.jpg";
+import serviceDeep from "@/assets/service-deep-cleaning.jpg";
+import serviceMoveInOut from "@/assets/service-move-inout.jpg";
+import servicePostConstruction from "@/assets/service-post-construction.jpg";
+import serviceFloorCare from "@/assets/service-floor-care.jpg";
+import { Phone, Users, Award, TrendingUp, Star, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
@@ -28,6 +34,39 @@ const stats = [
     value: 4.9,
     suffix: "/5",
     label: "Average Rating",
+  },
+];
+
+const services = [
+  {
+    title: "Office Cleaning",
+    description: "Keep your workplace pristine and professional with our comprehensive office cleaning solutions.",
+    image: serviceOffice,
+  },
+  {
+    title: "Residential Cleaning",
+    description: "Transform your home into a spotless sanctuary with our thorough residential cleaning services.",
+    image: serviceResidential,
+  },
+  {
+    title: "Deep Cleaning",
+    description: "Intensive cleaning that reaches every corner, ensuring a completely sanitized environment.",
+    image: serviceDeep,
+  },
+  {
+    title: "Move In/Out Cleaning",
+    description: "Make moving stress-free with our detailed move-in and move-out cleaning packages.",
+    image: serviceMoveInOut,
+  },
+  {
+    title: "Post-Construction Cleaning",
+    description: "Remove all construction debris and dust to reveal your newly built or renovated space.",
+    image: servicePostConstruction,
+  },
+  {
+    title: "Floor Care & Maintenance",
+    description: "Professional floor cleaning, polishing, and maintenance for all floor types.",
+    image: serviceFloorCare,
   },
 ];
 
@@ -129,6 +168,61 @@ const Index = () => {
                 </Card>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Services Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">Our Services</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Professional cleaning solutions tailored to your needs. From routine maintenance to specialized deep cleaning.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {services.map((service, index) => (
+              <Card 
+                key={index}
+                className="group overflow-hidden border-border/50 bg-card hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:scale-105"
+              >
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/50 to-transparent" />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-heading font-bold mb-3 text-foreground">
+                    {service.title}
+                  </h3>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    {service.description}
+                  </p>
+                  <Button 
+                    variant="ghost" 
+                    className="text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-semibold group/btn"
+                  >
+                    Learn More
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                  </Button>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Button 
+              size="lg"
+              className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+              asChild
+            >
+              <a href="/services">View All Services</a>
+            </Button>
           </div>
         </div>
       </section>
