@@ -1,4 +1,5 @@
 import { Home, Users, Briefcase, DollarSign, MapPin, HelpCircle, Mail, Image, MessageSquare, Shield, FileText } from "lucide-react";
+import { NavLink } from "react-router-dom";
 import logo from "/logo.png";
 
 import {
@@ -60,12 +61,21 @@ export function AppSidebar() {
                   <SidebarMenuButton
                     asChild
                     tooltip={item.title}
-                    className="hover:bg-accent hover:text-accent-foreground transition-colors"
                   >
-                    <a href={item.url} className="flex items-center gap-3 px-4 py-2">
+                    <NavLink 
+                      to={item.url} 
+                      end={item.url === "/"}
+                      className={({ isActive }) => 
+                        `flex items-center gap-3 px-4 py-2 transition-colors ${
+                          isActive 
+                            ? "bg-accent text-accent-foreground font-medium" 
+                            : "hover:bg-accent/50 hover:text-accent-foreground"
+                        }`
+                      }
+                    >
                       <item.icon className="h-4 w-4 text-primary" />
                       {open && <span className="text-sm">{item.title}</span>}
-                    </a>
+                    </NavLink>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
